@@ -495,6 +495,9 @@ header.sticky{
         padding: 70px 3%;
         transition: .3s;
     }
+    .about {
+        width: 100%;
+    }
     .contact{
         width: 95%;
         transition: .3s;
@@ -508,6 +511,9 @@ header.sticky{
 }
 
 @media only screen and (max-width: 970px) and (min-width: 250px) {
+    body{
+        width: fit-content;
+    }
     #menu-icon{
         display: block;
     }
@@ -546,9 +552,18 @@ header.sticky{
     .navlist.active{
         top: 100%;
     }
+    /* .skills {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        align-items: center;
+    } */
 }
 
 @media only screen and (max-width: 800px) and (min-width: 250px) {
+    body{
+        width: fit-content;
+    }
     .home{
         grid-template-columns: 1fr;
         min-height: 130vh;
@@ -589,6 +604,47 @@ header.sticky{
 }
 
 @media only screen and (max-width: 415px) and (min-width: 200px) {
+    body{
+        width: fit-content;
+    }
+    .home-text h3{
+        font-size: 40px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .home-text h1{
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 25px;
+    }
+    .home-text h5{
+        font-size: 30px;
+        line-height: 60px;
+    }
+    .home-text p{
+        font-size: 40px;
+        line-height: 70px;
+        margin-bottom: 50px;
+    }
+    .btn{
+        display: inline-block;
+        font-size: 30px;
+        line-height: 50px;
+        margin-bottom: 50px;
+        border-radius: 50px;
+        transition: ease .40s;
+    }
+    .social a{
+        width: 100px;
+        height: 95px;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 37px;
+        margin-right: 5%;
+        margin-bottom: 90px;
+    }
     .items{
         display: block;
     }
