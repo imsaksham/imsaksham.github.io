@@ -536,6 +536,7 @@ header.sticky{
         overflow: hidden;
     }
     .navlist a{
+        text-align: center;
         display: block;
         padding: 1.2rem;
         margin: 0.2rem;
