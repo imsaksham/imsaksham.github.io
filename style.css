@@ -482,6 +482,7 @@ header.sticky{
 @media only screen and (max-width: 1326px) and (min-width: 250px) {
     body{
         width: fit-content;
+        
     }
     header{
         padding: 16px 3%;
@@ -513,6 +514,7 @@ header.sticky{
 @media only screen and (max-width: 970px) and (min-width: 250px) {
     body{
         width: fit-content;
+        overflow: hidden;
     }
     #menu-icon{
         display: block;
@@ -564,6 +566,7 @@ header.sticky{
 @media only screen and (max-width: 800px) and (min-width: 250px) {
     body{
         width: fit-content;
+        overflow: hidden;
     }
     .home{
         grid-template-columns: 1fr;
@@ -607,6 +610,7 @@ header.sticky{
 @media only screen and (max-width: 415px) and (min-width: 200px) {
     body{
         width: fit-content;
+        overflow: hidden;
     }
     .home-text h3{
         font-size: 40px;
